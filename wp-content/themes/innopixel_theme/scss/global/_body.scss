@@ -1,0 +1,12 @@
+@use './../variables/colors.scss' as c;
+@use './../variables/fonts' as f;
+
+body {
+    position: relative;
+    color: c.$white;
+    font-family: f.$secondary-font !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
