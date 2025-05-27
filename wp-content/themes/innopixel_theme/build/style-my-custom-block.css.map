@@ -1,0 +1,1 @@
+{"version":3,"file":"./style-my-custom-block.css","mappings":";;;AAAA;EACI;AACJ,C","sources":["webpack:///./blocks/my-custom-block/style.scss"],"sourcesContent":[".my-custom-block {\n    background-color: aquamarine;\n}"],"names":[],"sourceRoot":""}

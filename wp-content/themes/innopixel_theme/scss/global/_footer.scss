@@ -1,0 +1,7 @@
+@use '../variables/colors' as c;
+@use '../variables/fonts' as f;
+
+footer {
+    height: 150px;
+    background-color: c.$dark-grey;
+}

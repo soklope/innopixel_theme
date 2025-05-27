@@ -1,0 +1,10 @@
+@use './../variables/colors.scss' as c;
+@use './../variables/fonts' as f;
+
+header {
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: c.$medium-grey;
+}

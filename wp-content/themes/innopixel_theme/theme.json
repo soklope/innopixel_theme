@@ -1,14 +1,12 @@
 {
   "version": 2,
   "settings": {
-    "layout": {
-      "contentSize": "800px",
-      "wideSize": "1200px"
-    },
+    "customTemplates": false,
+    "appearanceTools": true,
     "color": {
       "palette": [
-        { "slug": "blue", "color": "#0073aa", "name": "Blue" },
-        { "slug": "light-gray", "color": "#f5f5f5", "name": "Light Gray" }
+        { "slug": "medium-grey", "color": "#F1F1F1", "name": "Medium Grey" },
+        { "slug": "dark-grey", "color": "#F5F5F5", "name": "Dark Grey" }
       ]
     },
     "typography": {

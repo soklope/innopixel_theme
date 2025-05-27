@@ -1,0 +1,1 @@
+{"version":3,"file":"./style-header-inner-block.css","mappings":";;;AAEG;EACI;AADP,C","sources":["webpack:///./blocks/header-inner-block/style.scss"],"sourcesContent":[".header-inner-block {\n\n   &__inner {\n       display: flex;\n   }\n}"],"names":[],"sourceRoot":""}

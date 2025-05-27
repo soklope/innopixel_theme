@@ -12,9 +12,9 @@ add_action('wp_enqueue_scripts', function() {
 
 
 
-
 function innopixel_register_theme_blocks() {
     register_block_type( get_template_directory() . '/blocks/my-custom-block' );
+    register_block_type( get_template_directory() . '/blocks/header-inner-block' );
 }
 add_action( 'init', 'innopixel_register_theme_blocks' );
 
@@ -32,4 +32,6 @@ function innopixel_register_block_category( $categories, $post ) {
 }
 add_filter( 'block_categories_all', 'innopixel_register_block_category', 10, 2 );
 
-
+add_action('wp_enqueue_scripts', function() {
+    wp_enqueue_style('my-theme-style', get_stylesheet_directory_uri() . '/style.css');
+});
